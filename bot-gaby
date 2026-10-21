@@ -5,8 +5,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, MessageHandler, filters
 
 # Mengambil Token dari Environment Variables di Render nanti
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+TELEGRAM_TOKEN = os.getenv("8226437280:AAGYcL5aAgQ-Y8gKXQ0stnwzo4OG-tV0M8Y")
+GEMINI_API_KEY = os.getenv("AQ.Ab8RN6KQXaJunrKks4iTJnNx0AjjP5pw1Z3UoHaUVVBXB8oaGA")
 
 # Inisialisasi Gemini Client
 client = genai.Client(api_key=GEMINI_API_KEY)
